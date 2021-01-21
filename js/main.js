@@ -1,3 +1,54 @@
+//FUNCTION
+function trocar(elemento){
+    //alert("trocar texto");
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";
+}
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+function load(){
+    alert("pagina carregada");
+}
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+/*
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por tentar")
+}
+*/
+/*
+function redirecionar(){
+    window.open("https://www.youtube.com/");
+    window.location.href = "https://www.youtube.com/";
+}
+*/
+/*
+function soma(n1, n2){
+    return n1 + n2;
+}
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+alert(soma(5,10));
+alert(setReplace("Vai Japão", "Japão", "Brasil"));
+*/
+/*function validaIdade(idade){
+    var validar;
+    if(idade >= 18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar;
+}
+var idade = prompt("Qual a sua idade?");
+console.log(validaIdade(idade));
+*/
 //CONDICIONAIS, LAÇOS DE REPETIÇÃO E DATE
 /*
 var idade = prompt("Qual sua idade?");
